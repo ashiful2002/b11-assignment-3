@@ -1,0 +1,28 @@
+.btn-primary {
+  border-radius: 8px;
+  background-color: #ffdc26;
+  color: black;
+  border: none;
+  padding:0px 30px;
+}
+.btn-primary:hover {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #ffdc26;
+}
+.btn-outline {
+  border-radius: 8px;
+  border: 1px solid #ffdc26;
+  padding:0px 30px;
+}
+.btn-outline:hover {
+  background-color: #ffdc26;
+  color: #000000;
+  border: none;
+}
+h1 {
+  font-size: 56px;
+}
+p {
+  font-size: 20px;
+}
