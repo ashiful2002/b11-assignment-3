@@ -3,7 +3,7 @@
   background-color: #ffdc26;
   color: black;
   border: none;
-  padding:0px 30px;
+  padding: 0px 30px;
 }
 .btn-primary:hover {
   background-color: #ffffff;
@@ -13,7 +13,7 @@
 .btn-outline {
   border-radius: 8px;
   border: 1px solid #ffdc26;
-  padding:0px 30px;
+  padding: 0px 30px;
 }
 .btn-outline:hover {
   background-color: #ffdc26;
@@ -25,4 +25,29 @@ h1 {
 }
 p {
   font-size: 20px;
+}
+
+/* section{
+  margin: 50px 0px;
+} */
+.animation {
+  width: 100px;
+  height: 100px;
+  color: #ffdc26;
+  position: relative;
+  animation-name: text-animation;
+  animation-duration: 3s;
+  /* animation-iteration-count: infinite; */
+}
+
+@keyframes text-animation {
+  0% {
+    left: -300px;
+    top: 0px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+    
+  }
 }
