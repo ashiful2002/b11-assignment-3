@@ -36,15 +36,16 @@ p {
   color: #ffdc26;
   position: relative;
   animation-name: text-animation;
-  animation-duration: 3s;
+  animation-duration: 5s;
   /* animation-iteration-count: infinite; */
 }
 
 @keyframes text-animation {
   0% {
     left: -300px;
-    top: 0px;
   }
+
+  
   100% {
     left: 0px;
     top: 0px;
